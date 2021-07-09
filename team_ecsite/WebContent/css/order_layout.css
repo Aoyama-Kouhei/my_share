@@ -1,0 +1,100 @@
+.content{
+	position: relative;
+	/* float: center; */
+	width: 70%;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+
+.main_content {
+	position: relative;
+	/* float: center; */
+	/* margin-left: 5px;
+	margin-right: 5px; */
+}
+
+.list-wrapper{
+	position:reletive;
+	flex-wrap: wrap;
+	overflow: auto;
+}
+
+
+.ordered_product{
+	text-align: center;
+	font-size : 13px;
+	width: 250px;
+	padding-left: auto;
+	padding-right: auto;
+	float: left;
+	border: 1px solid #bdb8b8;
+	margin: 2px;
+}
+
+.ordered_pic{
+	height: 150px;
+}
+
+.basket_summary{
+	position: relative;
+	text-align: center;
+	clear: both;
+}
+
+.main_content.input{
+	margin: 50px;
+}
+.main_content.table{
+	position: relative;
+
+}
+
+.massage{
+	position: relative;
+	text-align: center;
+}
+
+.main_content#payment_radio_wrapper{
+	position: inherit;
+	text-align: center;
+}
+
+.inpur_range{
+	position: relative;
+	text-align: center;
+}
+
+.product_detail{
+	float:left;
+	justify-content: space-between;
+}
+
+.product_detail_pic{
+	height:200px;
+}
+
+.detail_whole{
+	display: flex;
+	margin: 30px;
+
+}
+.detail_sentence{
+	margin:15px;
+}
+
+.detail_btns{
+	position: relative;
+
+	text-align: center;
+}
+
+.list_style{
+	display:block;
+	height:auto;
+	margin:5px;
+	height:auto;
+}
+.err_msg{
+	color:red;
+}

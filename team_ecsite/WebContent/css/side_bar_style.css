@@ -1,0 +1,28 @@
+/* サイドバー */
+article{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+article .sideSearchSpace{
+  width:200px;
+  border-right:1px solid;
+}
+article .sideRankingSpace{
+	width:200px;
+  justify-content: center;
+  border-left:1px solid;
+}
+article .mainContentSpace{
+width: auto;
+  justify-content: center; /*この行はページによっては消すこともあり得る*/
+}
+
+.productRanking{
+  padding-left: 5px;
+}
+
+.search{
+	padding-left:5px;
+	padding-right: 5px;
+}

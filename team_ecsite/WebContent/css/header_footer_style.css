@@ -1,0 +1,101 @@
+/*ヘッダー関連*/
+body{
+	margin:0;
+	padding:0;
+}
+
+header div.upperNavBar{
+  display:flex;
+  justify-content: space-between;
+  background-color: rgb(160, 156, 156);
+}
+header div.generalMenu{
+  display:flex;
+  justify-content: space-between;
+  background-color: rgb(182, 181, 181);
+}
+header div.adminMenu{
+  display:flex;
+  align-items: center;
+}
+
+header .right_header{
+  display:flex;
+}
+
+header .left_header{
+  display:flex;
+}
+
+header .header_logo{
+  font-size: 25px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255);
+}
+
+header a{
+  text-decoration: none;
+  text-align: center;
+  padding: auto;
+  width: 135.44px;
+  color:rgb(255, 255, 255);
+}
+header a:hover{
+  background-color: rgb(108, 108, 108);
+}
+#sortRank,#sortNew,#navShopppingCart,#navFavorite{
+  padding-top: 5px;
+}
+
+header img{
+  width: 30px;
+}
+#navLogin,#navUser,#navAddUser,#navLogout{
+  width: 135.44px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+/*フッター関連*/
+footer{
+  text-align:center;
+  background-color: rgb(160, 156, 156);
+}
+
+footer .footer_logo{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+footer .tail_nav{
+  font-size: 12px;
+}
+.input_position td{
+padding: 5px 30px 5px 10px;
+border: 2px solid black;
+}
+.input_position_title{
+background-color: #cccccc;
+font-weight: bold;
+ }
+td.tfoot {
+background-color: #ffffff;
+border-bottom: 2px solid white;
+border-left: 2px solid white;
+border-right: 2px solid white;
+}
+td.thead {
+background-color: #ffffff;
+border-top: 2px solid white;
+border-left: 2px solid white;
+border-right: 2px solid white;
+}
+td.tall {
+background-color: #ffffff;
+border: 2px solid white;
+}
+

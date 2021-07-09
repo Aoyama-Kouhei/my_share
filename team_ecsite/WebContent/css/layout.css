@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+/* ---- 画面の大枠のレイアウト用CSS ---- */
+
+/* ---- 共通 ---- */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.login {
+	width: 100%;
+}
+
+
+
+/* ---- メイン ---- */
+
+div.right {
+    text-align: right; 
+}
